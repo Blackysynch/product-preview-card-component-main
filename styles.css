@@ -1,0 +1,98 @@
+main, div {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    width: 1440px;
+    margin: 0;
+}
+
+.card {
+    display:flex;
+    background-color: hsl(0, 0%, 100%);
+    width:40%;
+    height:50%;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:24%;
+    margin-bottom: 24%;
+    border-radius: 10px;
+}
+
+div.image, div.details{
+    display: block;
+    width: 50%;
+    margin:0;
+    border-radius: 10px;
+}
+.details{
+    padding: 25px 28px;
+    font-size: 15px;
+    justify-content: space-evenly;
+}
+
+img{
+    margin:0;
+    border:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    color:hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+h1{
+    font-family: "Fraunces", sans-serif;
+    color:hsl(212, 21%, 14%);
+}
+
+.price{
+    display: inline;
+    position: relative;
+    top: 2px;
+    padding: 10px;
+    text-align: left;
+}
+.first{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces';
+    font-size: 200%;
+    font-weight: 500;
+    width: 60%;
+}
+
+#icon{
+    position: relative;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    padding-right: 4px;
+}
+
+.button{
+    position: relative;
+    top: 20px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    font-family: "Montserrat";
+    text-align: center;
+    width: 95%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color:hsl(158, 39%, 25%);
+}
+
+
+.attribution{
+    position:relative;
+    bottom: 20vh;
+    text-align:  center;
+}
