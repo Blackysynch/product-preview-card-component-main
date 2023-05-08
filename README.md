@@ -27,8 +27,8 @@ THe challenge was to build out this product preview card component and get it lo
 
 ### Links
 
-solution-URL: []
-live Site URL: []
+solution-URL: [https://www.frontendmentor.io/solutions/product-preview-card-using-html-and-css-55NXKA54BW]
+live Site URL: [https://blackysynch.github.io/product-preview-card-component-main/]
 
 ## My process
 I used HTML5 markup with some basic knowledge of css.
